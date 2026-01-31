@@ -3,7 +3,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebas
 import { getFirestore, collection, addDoc, onSnapshot, updateDoc, doc, deleteDoc, enableIndexedDbPersistence } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
 
 // إعدادات Firebase - قم بنسخها من Firebase Console
- 
+  const firebaseConfig = {
+    apiKey: "AIzaSyDrV-Hbym7882zkrP5HNrqZarwTM8LjE5w",
+    authDomain: "kkjllj.firebaseapp.com",
+    projectId: "kkjllj",
+    storageBucket: "kkjllj.firebasestorage.app",
+    messagingSenderId: "380782629881",
+    appId: "1:380782629881:web:172b82bb1527242d902328"
+  };
 
 // تهيئة التطبيق
 const app = initializeApp(firebaseConfig);
